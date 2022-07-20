@@ -4,6 +4,7 @@ class Lex(object):
     reserved = {
         'if': 'IF',
         'else': 'ELSE',
+        'elif':'ELSEIF',
         'while': 'WHILE',
         'for' : "FOR",
         'int' : "INTEGER",
